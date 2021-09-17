@@ -1,0 +1,15 @@
+# 설탕그람수
+n = int(input())
+# 봉지의 수
+cnt = 0
+
+while n >= 0:
+    if n % 5 == 0:
+        cnt += int(n//5)
+        print(cnt)
+        break
+
+    n -= 3
+    cnt += 1
+else:
+    print(-1)
