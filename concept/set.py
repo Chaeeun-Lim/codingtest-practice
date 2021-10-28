@@ -43,3 +43,8 @@ print(data)
 # 특정한 값을 갖는 원소 삭제
 data.remove(3)
 print(data)
+
+d = {1,3,4}
+d.add(5)
+d.update([5,6])
+d.remove(4)

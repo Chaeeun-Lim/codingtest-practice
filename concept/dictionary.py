@@ -25,3 +25,29 @@ print(value_list)
 
 for key in key_list:
     print(data[key])
+
+for i in data:
+    print(i)
+
+v = [[1, 4], [3, 4], [3, 10]]
+answer = []
+x = dict()
+y = dict()
+for i in v:
+    nx, ny = str(i[0]), str(i[1])
+    if nx in x:
+        x[nx] += 1
+    else:
+        x[nx] = 1
+    if ny in y:
+        y[ny] += 1
+    else:
+        y[ny] = 1
+for i in x.keys():
+    if x[i] == 1:
+        answer.append(int(i))
+for i in y.keys():
+    if y[i] == 1:
+        answer.append(int(i))
+
+print(answer)

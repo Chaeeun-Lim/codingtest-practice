@@ -20,7 +20,7 @@ array3 = [[0]*m for _ in range(n)]
 '''
 a = [1,2,3,4,5,6,7,8,9]
 print(a)
-print(a[-2])
+print(a[-1])
 
 #두번째 원소부터 네번째 원소까지
 print(a[1:4])

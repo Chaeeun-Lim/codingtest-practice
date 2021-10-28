@@ -32,6 +32,7 @@ graph = [
 ]
 # 각 노드가 방문된 정보를 표현 (1차원 리스트)
 visited = [False] * 9
+print(visited)
 
 # 정의된 DFS함수 호출
 dfs(graph, 1, visited)
